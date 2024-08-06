@@ -28,6 +28,13 @@ bot.hears(['HTML','CSS','JS','REACT'], async (ctx) => {
     })
 })
 
+bot.on('callback_query:data', async (ctx)=>{
+    if(ctx.callbackQuery.data === 'cancel') {
+        await ctx.reply('Отменено')
+        await ctx.answerCallbackQuery()
+    }
+})
+
 bot.catch((err) => {
     const ctx = err.ctx;
     console.error(`Error while handling update ${ctx.update.update_id}:`);
