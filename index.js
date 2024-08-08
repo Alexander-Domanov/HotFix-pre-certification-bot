@@ -12,6 +12,8 @@ bot.command('start', async (ctx) => {
         .row()
         .text('JS')
         .text('REACT')
+        .row()
+        .text('Случайный вопрос')
         .resized()
 
     await ctx.reply('Привет! Я - HotFix-pre-certification-bot👩‍🎓👨‍🎓 \n Я помогу тебе подготовиться к сертификации')
@@ -20,36 +22,43 @@ bot.command('start', async (ctx) => {
     })
 })
 
-bot.hears(['HTML', 'CSS', 'JS', 'REACT'], async (ctx) => {
-    const topic = ctx.message.text.toLowerCase()
-    const question = getRandomQuestion(topic)
-    let inlineKeyboard
-    if (question.hasOptions) {
-        const buttonRows = question.options.map((option) => [
-            InlineKeyboard.text(
+bot.hears(
+    ['HTML', 'CSS', 'JavaScript', 'React', 'Случайный вопрос'],
+    async (ctx) => {
+        const topic = ctx.message.text.toLowerCase()
+        const { question, questionTopic } = getRandomQuestion(topic)
+
+        let inlineKeyboard;
+
+        if (question.hasOptions) {
+            const buttonRows = question.options.map((option) => [
+                InlineKeyboard.text(
                     option.text,
                     JSON.stringify({
-                        type: `${topic}-option`,
+                        type: `${questionTopic}-option`,
                         isCorrect: option.isCorrect,
                         questionId: question.id,
-                    })
-                )
-            ]
-        )
+                    }),
+                ),
+            ])
 
-        inlineKeyboard = InlineKeyboard.from(buttonRows)
-    } else {
-        inlineKeyboard = new InlineKeyboard()
-            .text('Узнать ответ', JSON.stringify({
-                type: ctx.message.text,
-                questionId: question.id
-            }))
-    }
+            inlineKeyboard = InlineKeyboard.from(buttonRows);
+        } else {
+            inlineKeyboard = new InlineKeyboard().text(
+                'Узнать ответ',
+                JSON.stringify({
+                    type: questionTopic,
+                    questionId: question.id,
+                }),
+            )
+        }
 
-    await ctx.reply(question.text, {
-        reply_markup: inlineKeyboard
-    })
-})
+        await ctx.reply(question.text, {
+            reply_markup: inlineKeyboard,
+        })
+    },
+
+)
 
 bot.on('callback_query:data', async (ctx) => {
     const callbackData = JSON.parse(ctx.callbackQuery.data)

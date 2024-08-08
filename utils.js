@@ -1,13 +1,28 @@
 const questions = require('./question.json')
+const { Random } = require('random-js');
 
 const getRandomQuestion = (topic) => {
-    const questionTopic = topic.toLowerCase()
-    const randomQuestionIndex = Math.floor(
-        Math.random() * questions[questionTopic].length
-    )
+    const random = new Random()
 
-    return questions[questionTopic][randomQuestionIndex]
-}
+    let questionTopic = topic.toLowerCase();
+
+    if (questionTopic === 'случайный вопрос') {
+        questionTopic =
+            Object.keys(questions)[
+                random.integer(0, Object.keys(questions).length - 1)
+                ]
+    }
+
+    const randomQuestionIndex = random.integer(
+        0,
+        questions[questionTopic].length - 1,
+    );
+
+    return {
+        question: questions[questionTopic][randomQuestionIndex],
+        questionTopic,
+    };
+};
 
 const getCorrectAnswer = (topic,id) => {
     const question = questions[topic].find((question) => question.id === id )
