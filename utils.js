@@ -1,10 +1,22 @@
-const question = require('./question.json')
+const questions = require('./question.json')
 
 const getRandomQuestion = (topic) => {
     const questionTopic = topic.toLowerCase()
     const randomQuestionIndex = Math.floor(
-        Math.random() * question[questionTopic].length
+        Math.random() * questions[questionTopic].length
     )
 
-    return question[questionTopic][randomQuestionIndex]
+    return questions[questionTopic][randomQuestionIndex]
 }
+
+const getCorrectAnswer = (topic,id) => {
+    const question = questions[topic].find((question) => question.id === id )
+
+    if (!question.hasOptions) {
+        return question.answer
+    }
+
+    return question.options.find((option)=> option.isCorrect ).text
+}
+
+module.exports = { getRandomQuestion, getCorrectAnswer }

@@ -3,6 +3,7 @@ require('dotenv').config()
 const {Bot, Keyboard, InlineKeyboard, GrammyError, HttpError} = require('grammy')
 
 const bot = new Bot(process.env.BOT_API_KEY)
+const { getRandomQuestion, getCorrectAnswer } = require('./utils')
 
 bot.command('start', async (ctx) => {
     const startKeyboard = new Keyboard()
@@ -20,26 +21,57 @@ bot.command('start', async (ctx) => {
 })
 
 bot.hears(['HTML', 'CSS', 'JS', 'REACT'], async (ctx) => {
-    const inlineKeyboard = new InlineKeyboard()
-        .text('Получить ответ', JSON.stringify({
-            type: ctx.message.text,
-            questionId: 1
-        }))
-        .text('Отменить', 'cancel')
-    await ctx.reply(`Что такое ${ctx.message.text}?`, {
+    const topic = ctx.message.text.toLowerCase()
+    const question = getRandomQuestion(topic)
+    let inlineKeyboard
+    if (question.hasOptions) {
+        const buttonRows = question.options.map((option) => [
+            InlineKeyboard.text(
+                    option.text,
+                    JSON.stringify({
+                        type: `${topic}-option`,
+                        isCorrect: option.isCorrect,
+                        questionId: question.id,
+                    })
+                )
+            ]
+        )
+
+        inlineKeyboard = InlineKeyboard.from(buttonRows)
+    } else {
+        inlineKeyboard = new InlineKeyboard()
+            .text('Узнать ответ', JSON.stringify({
+                type: ctx.message.text,
+                questionId: question.id
+            }))
+    }
+
+    await ctx.reply(question.text, {
         reply_markup: inlineKeyboard
     })
 })
 
 bot.on('callback_query:data', async (ctx) => {
-    if (ctx.callbackQuery.data === 'cancel') {
-        await ctx.reply('Отменено')
+    const callbackData = JSON.parse(ctx.callbackQuery.data)
+
+    if (!callbackData.type.includes('option')) {
+        const answer = getCorrectAnswer(callbackData.type, callbackData.questionId)
+        await ctx.reply(answer, {
+            parse_mode: 'HTML',
+            disable_web_page_preview: true,
+        })
         await ctx.answerCallbackQuery()
         return
     }
-    const callbackData = JSON.parse(ctx.callbackQuery.data)
-    await ctx.reply(`${callbackData.type} - Составляющая фронтенда`)
-    await ctx.answerCallbackQuery()
+
+    if (callbackData.isCorrect) {
+        await ctx.reply('Верно ✅')
+        await ctx.answerCallbackQuery();
+        return
+    }
+
+    const answer = getCorrectAnswer(callbackData.type.split('-')[0], callbackData.questionId)
+    await ctx.reply(`Неверно ❌ Правильный ответ: ${answer}`)
 })
 
 bot.catch((err) => {
