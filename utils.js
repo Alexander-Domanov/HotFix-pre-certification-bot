@@ -1,8 +1,8 @@
-const questions = require('./question.json')
+const questions = require('./questions.json');
 const { Random } = require('random-js');
 
 const getRandomQuestion = (topic) => {
-    const random = new Random()
+    const random = new Random();
 
     let questionTopic = topic.toLowerCase();
 
@@ -10,9 +10,9 @@ const getRandomQuestion = (topic) => {
         questionTopic =
             Object.keys(questions)[
                 random.integer(0, Object.keys(questions).length - 1)
-                ]
+                ];
     }
-
+    console.log('topic', questions)
     const randomQuestionIndex = random.integer(
         0,
         questions[questionTopic].length - 1,
@@ -24,14 +24,14 @@ const getRandomQuestion = (topic) => {
     };
 };
 
-const getCorrectAnswer = (topic,id) => {
-    const question = questions[topic].find((question) => question.id === id )
+const getCorrectAnswer = (topic, id) => {
+    const question = questions[topic].find((question) => question.id === id);
 
     if (!question.hasOptions) {
-        return question.answer
+        return question.answer;
     }
 
-    return question.options.find((option)=> option.isCorrect ).text
-}
+    return question.options.find((option) => option.isCorrect).text;
+};
 
-module.exports = { getRandomQuestion, getCorrectAnswer }
+module.exports = { getRandomQuestion, getCorrectAnswer };
