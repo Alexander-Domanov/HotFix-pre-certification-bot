@@ -1,0 +1,222 @@
+{
+  "classic": [
+    {
+      "id": 1,
+      "text": "Сколько мл молока нужно для стандартного капучино:",
+      "hasOptions": true,
+      "options": [
+        { "id": 1, "text": "130 мл молока", "isCorrect": false },
+        { "id": 2, "text": "150 мл молока", "isCorrect": false },
+        { "id": 3, "text": "110 мл молока", "isCorrect": true },
+        { "id": 4, "text": "  145 мл молока", "isCorrect": false }
+      ]
+    },
+    {
+      "id": 2,
+      "text": "Сколько мл молока нужно для большого объема латте:",
+      "hasOptions": true,
+      "options": [
+        { "id": 1, "text": "250 мл молока", "isCorrect": true },
+        { "id": 2, "text": "270 мл молока", "isCorrect": false },
+        { "id": 3, "text": "240 мл молока", "isCorrect": false },
+        { "id": 4, "text": "220 мл молока", "isCorrect": false }
+      ]
+    },
+    {
+      "id": 3,
+      "text": "Сколько мл сливок/молока нужно для стандартного объема рафа:",
+      "hasOptions": true,
+      "options": [
+        { "id": 1, "text": "40 сливок, 80 молока, 1 шот эспрессо", "isCorrect": false },
+        { "id": 2, "text": "50 сливок, 90 молока, 0,5 шота эспрессо", "isCorrect": true },
+        { "id": 3, "text": "80 сливок, 140 молока, 1 шот эспрессо", "isCorrect": false },
+        { "id": 4, "text": "55 сливок, 105 молока, 0,5 шота эспрессо", "isCorrect": false }
+      ]
+    },
+    {
+      "id": 4,
+      "text": "Сколько эспрессо добавляется в большой объем американо:",
+      "hasOptions": true,
+      "options": [
+        { "id": 1, "text": "4 шота эспрессо", "isCorrect": false },
+        { "id": 2, "text": "5 шотов эспрессо", "isCorrect": false },
+        { "id": 3, "text": "3 шота эспрессо", "isCorrect": true },
+        { "id": 4, "text": "3,5 шота эспрессо", "isCorrect": false }
+      ]
+    },
+    {
+      "id": 5,
+      "text": "Сколько мл молока и какао нужно для большого какао:",
+      "hasOptions": true,
+      "options": [
+        { "id": 1, "text": "210 мл молока/25 г какао", "isCorrect": false },
+        { "id": 2, "text": "180 мл молока/18 г какао", "isCorrect": false },
+        { "id": 3, "text": "250 мл молока/28 г какао", "isCorrect": true },
+        { "id": 4, "text": "230 мл молока/18 г какао", "isCorrect": false }
+      ]
+    },
+    {
+      "id": 6,
+      "text": "Сколько мл молока нужно для стандартного объема матча-латте:",
+      "hasOptions": true,
+      "options": [
+        { "id": 1, "text": "150 мл молока/1 г матча", "isCorrect": true },
+        { "id": 2, "text": "130 мл молока/7 г матча", "isCorrect": false },
+        { "id": 3, "text": "110 мл молока/1 г матча", "isCorrect": false },
+        { "id": 4, "text": "180 мл молока/1,7 г матча", "isCorrect": false }
+      ]
+    },
+    {
+      "id": 7,
+      "text": "Выберите правильную рецептуру приготовления моккачино:",
+      "hasOptions": true,
+      "options": [
+        { "id": 1, "text": "110 мл молока/0,5 шота эспрессо/10 г соуса шоколад", "isCorrect": true },
+        { "id": 2, "text": "130 мл молока/1 шот эспрессо/12 г соуса шоколад", "isCorrect": false },
+        { "id": 3, "text": "150 мл молока/1 шот эспрессо/15 г соуса шоколад", "isCorrect": false },
+        { "id": 4, "text": "140 мл молока/0,5 шота эспрессо/8 г соуса шоколад", "isCorrect": false }
+      ]
+    },
+    {
+      "id": 8,
+      "text": "Как готовится флэт уайт:",
+      "hasOptions": true,
+      "options": [
+        { "id": 1, "text": "150 мл молока/0,5 шота эспрессо", "isCorrect": false },
+        { "id": 2, "text": "90 мл молока/2 шота эспрессо", "isCorrect": false },
+        { "id": 3, "text": "110 мл молока/1 шот эспрессо", "isCorrect": false },
+        { "id": 4, "text": "110 мл молока/2 шота эспрессо", "isCorrect": true }
+      ]
+    },
+    {
+      "id": 9,
+      "text": "Сколько мл молока нужно для большого капучино:",
+      "hasOptions": true,
+      "options": [
+        { "id": 1, "text": "230 мл молока", "isCorrect": false },
+        { "id": 2, "text": "250 мл молока", "isCorrect": false },
+        { "id": 3, "text": "210 мл молока", "isCorrect": true },
+        { "id": 4, "text": "245 мл молока", "isCorrect": false }
+      ]
+    },
+    {
+      "id": 10,
+      "text": "Сколько мл молока нужно для стандартного объема латте:",
+      "hasOptions": true,
+      "options": [
+        { "id": 1, "text": "150 мл молока", "isCorrect": true },
+        { "id": 2, "text": "170 мл молока", "isCorrect": false },
+        { "id": 3, "text": "140 мл молока", "isCorrect": false },
+        { "id": 4, "text": "120 мл молока", "isCorrect": false }
+      ]
+    },
+    {
+      "id": 11,
+      "text": "Сколько мл сливок/молока нужно для большого объема рафа:",
+      "hasOptions": true,
+      "options": [
+        { "id": 1, "text": "80 сливок, 160 молока, 2 шота эспрессо", "isCorrect": false },
+        { "id": 2, "text": "100 сливок, 180 молока, 1 шот эспрессо", "isCorrect": false },
+        { "id": 3, "text": "80 сливок, 140 молока, 1 шот эспрессо", "isCorrect": true },
+        { "id": 4, "text": "160 сливок, 80 молока, 1 шот эспрессо", "isCorrect": false }
+      ]
+    },
+    {
+      "id": 12,
+      "text": "Сколько эспрессо добавляется в стандартный объем американо:",
+      "hasOptions": true,
+      "options": [
+        { "id": 1, "text": "1 шот эспрессо", "isCorrect": false },
+        { "id": 2, "text": "3 шота эспрессо", "isCorrect": false },
+        { "id": 3, "text": "2 шота эспрессо", "isCorrect": true },
+        { "id": 4, "text": "1,5 шота эспрессо", "isCorrect": false }
+      ]
+    },
+    {
+      "id": 13,
+      "text": "Как готовится какао:",
+      "hasOptions": true,
+      "options": [
+        { "id": 1, "text": "130 мл молока, 7 г какао", "isCorrect": false },
+        { "id": 2, "text": "150 мл молока, 1 г какао", "isCorrect": false },
+        { "id": 3, "text": "180 мл молока, 17 г какао", "isCorrect": false },
+        { "id": 4, "text": "150 мл молока, 13,5 г какао", "isCorrect": true }
+      ]
+    },
+    {
+      "id": 14,
+      "text": "Как готовится большой объем матча-латте:",
+      "hasOptions": true,
+      "options": [
+        { "id": 1, "text": "230 мл молока, 2 г матчи", "isCorrect": true },
+        { "id": 2, "text": "150 мл молока, 13,5 г матчи", "isCorrect": false },
+        { "id": 3, "text": "180 мл молока, 1,7 г матчи", "isCorrect": false },
+        { "id": 4, "text": "210 мл молока, 2 г матчи", "isCorrect": false }
+      ]
+    },
+    {
+      "id": 15,
+      "text": "Как готовится большой моккачино:",
+      "hasOptions": true,
+      "options": [
+        { "id": 1, "text": "210 мл молока/ 1 эспрессо/ 15 г соуса шоколад", "isCorrect": true },
+        { "id": 2, "text": "230 мл молока/ 0,5 эспрессо/ 10 г соуса шоколад", "isCorrect": false },
+        { "id": 3, "text": "250 мл молока/ 2 эспрессо/ 15 г соуса шоколад", "isCorrect": false },
+        { "id": 4, "text": "240 мл молока/ 2 эспрессо/ 20 г соуса шоколад", "isCorrect": false }
+      ]
+    }
+  ],
+  "css": [
+    {
+      "id": 1,
+      "text": "Какой тег используется для создания ссылки?",
+      "hasOptions": true,
+      "options": [
+        { "id": 1, "text": "<link>", "isCorrect": false },
+        { "id": 2, "text": "<a>", "isCorrect": true },
+        { "id": 3, "text": "<href>", "isCorrect": false },
+        { "id": 4, "text": "<anchor>", "isCorrect": false }
+      ]
+    },
+    {
+      "id": 6,
+      "text": "Для чего используется атрибут 'placeholder'?",
+      "hasOptions": false,
+      "answer": "Атрибут 'placeholder' используется для отображения вводимого текста в поле формы до того, как пользователь начнет вводить свои данные. Это помогает предоставить подсказку или пример того, что должен ввести пользователь."
+    }
+  ],
+  "javascript": [
+    {
+      "id": 2,
+      "text": "Какой тег используется для создания ссылки?",
+      "hasOptions": true,
+      "options": [
+        { "id": 1, "text": "<link>", "isCorrect": false },
+        { "id": 2, "text": "<a>", "isCorrect": true },
+        { "id": 3, "text": "<href>", "isCorrect": false },
+        { "id": 4, "text": "<anchor>", "isCorrect": false }
+      ]
+    },
+    {
+      "id": 3,
+      "text": "Для чего используется атрибут 'placeholder'?",
+      "hasOptions": false,
+      "answer": "Атрибут 'placeholder' используется для отображения вводимого текста в поле формы до того, как пользователь начнет вводить свои данные. Это помогает предоставить подсказку или пример того, что должен ввести пользователь."
+    }
+  ],
+  "react": [
+    {
+      "id": 1,
+      "text": "Сколько мл молока идет в стандартный капучино:",
+      "hasOptions": true,
+      "options": [
+        { "id": 1, "text": "130 мл молока", "isCorrect": false },
+        { "id": 2, "text": "150 мл молока", "isCorrect": false },
+        { "id": 3, "text": "110 мл молока", "isCorrect": true },
+        { "id": 4, "text": "  145 мл молока", "isCorrect": false }
+      ]
+    }
+  ]
+}
+
+
