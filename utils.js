@@ -12,7 +12,6 @@ const getRandomQuestion = (topic) => {
                 random.integer(0, Object.keys(questions).length - 1)
                 ];
     }
-    console.log('topic', questions)
     const randomQuestionIndex = random.integer(
         0,
         questions[questionTopic].length - 1,
