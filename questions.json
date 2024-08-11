@@ -5,10 +5,26 @@
       "text": "Сколько мл молока нужно для стандартного Капучино:",
       "hasOptions": true,
       "options": [
-        { "id": 1, "text": "130 мл молока", "isCorrect": false },
-        { "id": 2, "text": "150 мл молока", "isCorrect": false },
-        { "id": 3, "text": "110 мл молока", "isCorrect": true },
-        { "id": 4, "text": "  145 мл молока", "isCorrect": false }
+        {
+          "id": 1,
+          "text": "130 мл молока",
+          "isCorrect": false
+        },
+        {
+          "id": 2,
+          "text": "150 мл молока",
+          "isCorrect": false
+        },
+        {
+          "id": 3,
+          "text": "110 мл молока",
+          "isCorrect": true
+        },
+        {
+          "id": 4,
+          "text": "145 мл молока",
+          "isCorrect": false
+        }
       ]
     },
     {
@@ -16,21 +32,53 @@
       "text": "Сколько мл молока нужно для большого объема Латте:",
       "hasOptions": true,
       "options": [
-        { "id": 1, "text": "250 мл молока", "isCorrect": true },
-        { "id": 2, "text": "270 мл молока", "isCorrect": false },
-        { "id": 3, "text": "240 мл молока", "isCorrect": false },
-        { "id": 4, "text": "220 мл молока", "isCorrect": false }
+        {
+          "id": 1,
+          "text": "250 мл молока",
+          "isCorrect": true
+        },
+        {
+          "id": 2,
+          "text": "270 мл молока",
+          "isCorrect": false
+        },
+        {
+          "id": 3,
+          "text": "240 мл молока",
+          "isCorrect": false
+        },
+        {
+          "id": 4,
+          "text": "220 мл молока",
+          "isCorrect": false
+        }
       ]
     },
     {
       "id": 3,
-      "text": "Сколько мл сливок/молока нужно для стандартного объема Рафа:",
+      "text": "Сколько мл сливок/молока нужно для стандартного объема Раф:",
       "hasOptions": true,
       "options": [
-        { "id": 1, "text": "40 сливок, 80 молока, 1 шот эспрессо", "isCorrect": false },
-        { "id": 2, "text": "50 сливок, 90 молока, 0,5 шота эспрессо", "isCorrect": true },
-        { "id": 3, "text": "80 сливок, 140 молока, 1 шот эспрессо", "isCorrect": false },
-        { "id": 4, "text": "55 сливок, 105 молока, 0,5 шота эспрессо", "isCorrect": false }
+        {
+          "id": 1,
+          "text": "40 сливок, 80 молока, 1 эспрессо",
+          "isCorrect": false
+        },
+        {
+          "id": 2,
+          "text": "50 сливок, 90 молока, 0,5 эспрессо",
+          "isCorrect": true
+        },
+        {
+          "id": 3,
+          "text": "80 сливок, 140 молока, 1 эспрессо",
+          "isCorrect": false
+        },
+        {
+          "id": 4,
+          "text": "55 сливок, 105 молока, 0,5 эспрессо",
+          "isCorrect": false
+        }
       ]
     },
     {
@@ -38,10 +86,26 @@
       "text": "Сколько эспрессо добавляется в большой объем Американо:",
       "hasOptions": true,
       "options": [
-        { "id": 1, "text": "4 шота эспрессо", "isCorrect": false },
-        { "id": 2, "text": "5 шотов эспрессо", "isCorrect": false },
-        { "id": 3, "text": "3 шота эспрессо", "isCorrect": true },
-        { "id": 4, "text": "3,5 шота эспрессо", "isCorrect": false }
+        {
+          "id": 1,
+          "text": "4 шота эспрессо",
+          "isCorrect": false
+        },
+        {
+          "id": 2,
+          "text": "5 шотов эспрессо",
+          "isCorrect": false
+        },
+        {
+          "id": 3,
+          "text": "3 шота эспрессо",
+          "isCorrect": true
+        },
+        {
+          "id": 4,
+          "text": "3,5 шота эспрессо",
+          "isCorrect": false
+        }
       ]
     },
     {
@@ -49,10 +113,26 @@
       "text": "Сколько мл молока и какао нужно для большого Какао:",
       "hasOptions": true,
       "options": [
-        { "id": 1, "text": "210 мл молока/25 г какао", "isCorrect": false },
-        { "id": 2, "text": "180 мл молока/18 г какао", "isCorrect": false },
-        { "id": 3, "text": "250 мл молока/28 г какао", "isCorrect": true },
-        { "id": 4, "text": "230 мл молока/18 г какао", "isCorrect": false }
+        {
+          "id": 1,
+          "text": "210 мл молока/25 г какао",
+          "isCorrect": false
+        },
+        {
+          "id": 2,
+          "text": "180 мл молока/18 г какао",
+          "isCorrect": false
+        },
+        {
+          "id": 3,
+          "text": "250 мл молока/28 г какао",
+          "isCorrect": true
+        },
+        {
+          "id": 4,
+          "text": "230 мл молока/18 г какао",
+          "isCorrect": false
+        }
       ]
     },
     {
@@ -60,10 +140,26 @@
       "text": "Сколько мл молока нужно для стандартного объема Матча-Латте:",
       "hasOptions": true,
       "options": [
-        { "id": 1, "text": "150 мл молока/1 г матча", "isCorrect": true },
-        { "id": 2, "text": "130 мл молока/7 г матча", "isCorrect": false },
-        { "id": 3, "text": "110 мл молока/1 г матча", "isCorrect": false },
-        { "id": 4, "text": "180 мл молока/1,7 г матча", "isCorrect": false }
+        {
+          "id": 1,
+          "text": "150 мл молока/1 г матча",
+          "isCorrect": true
+        },
+        {
+          "id": 2,
+          "text": "130 мл молока/7 г матча",
+          "isCorrect": false
+        },
+        {
+          "id": 3,
+          "text": "110 мл молока/1 г матча",
+          "isCorrect": false
+        },
+        {
+          "id": 4,
+          "text": "180 мл молока/1,7 г матча",
+          "isCorrect": false
+        }
       ]
     },
     {
@@ -71,10 +167,26 @@
       "text": "Выберите правильную рецептуру приготовления Моккачино:",
       "hasOptions": true,
       "options": [
-        { "id": 1, "text": "110 мл молока/0,5 шота эспрессо/10 г соуса шоколад", "isCorrect": true },
-        { "id": 2, "text": "130 мл молока/1 шот эспрессо/12 г соуса шоколад", "isCorrect": false },
-        { "id": 3, "text": "150 мл молока/1 шот эспрессо/15 г соуса шоколад", "isCorrect": false },
-        { "id": 4, "text": "140 мл молока/0,5 шота эспрессо/8 г соуса шоколад", "isCorrect": false }
+        {
+          "id": 1,
+          "text": "110 мл молока/0,5 эспрессо/10 г соуса",
+          "isCorrect": true
+        },
+        {
+          "id": 2,
+          "text": "130 мл молока/1 эспрессо/12 г соуса",
+          "isCorrect": false
+        },
+        {
+          "id": 3,
+          "text": "150 мл молока/1 эспрессо/15 г соуса",
+          "isCorrect": false
+        },
+        {
+          "id": 4,
+          "text": "140 мл молока/0,5 эспрессо/8 г соуса",
+          "isCorrect": false
+        }
       ]
     },
     {
@@ -82,10 +194,26 @@
       "text": "Как готовится Флэт Уайт:",
       "hasOptions": true,
       "options": [
-        { "id": 1, "text": "150 мл молока/0,5 шота эспрессо", "isCorrect": false },
-        { "id": 2, "text": "90 мл молока/2 шота эспрессо", "isCorrect": false },
-        { "id": 3, "text": "110 мл молока/1 шот эспрессо", "isCorrect": false },
-        { "id": 4, "text": "110 мл молока/2 шота эспрессо", "isCorrect": true }
+        {
+          "id": 1,
+          "text": "150 мл молока/0,5 эспрессо",
+          "isCorrect": false
+        },
+        {
+          "id": 2,
+          "text": "90 мл молока/2 эспрессо",
+          "isCorrect": false
+        },
+        {
+          "id": 3,
+          "text": "110 мл молока/1 эспрессо",
+          "isCorrect": false
+        },
+        {
+          "id": 4,
+          "text": "110 мл молока/2 эспрессо",
+          "isCorrect": true
+        }
       ]
     },
     {
@@ -93,10 +221,26 @@
       "text": "Сколько мл молока нужно для большого Капучино:",
       "hasOptions": true,
       "options": [
-        { "id": 1, "text": "230 мл молока", "isCorrect": false },
-        { "id": 2, "text": "250 мл молока", "isCorrect": false },
-        { "id": 3, "text": "210 мл молока", "isCorrect": true },
-        { "id": 4, "text": "245 мл молока", "isCorrect": false }
+        {
+          "id": 1,
+          "text": "230 мл молока",
+          "isCorrect": false
+        },
+        {
+          "id": 2,
+          "text": "250 мл молока",
+          "isCorrect": false
+        },
+        {
+          "id": 3,
+          "text": "210 мл молока",
+          "isCorrect": true
+        },
+        {
+          "id": 4,
+          "text": "245 мл молока",
+          "isCorrect": false
+        }
       ]
     },
     {
@@ -104,21 +248,53 @@
       "text": "Сколько мл молока нужно для стандартного объема Латте:",
       "hasOptions": true,
       "options": [
-        { "id": 1, "text": "150 мл молока", "isCorrect": true },
-        { "id": 2, "text": "170 мл молока", "isCorrect": false },
-        { "id": 3, "text": "140 мл молока", "isCorrect": false },
-        { "id": 4, "text": "120 мл молока", "isCorrect": false }
+        {
+          "id": 1,
+          "text": "150 мл молока",
+          "isCorrect": true
+        },
+        {
+          "id": 2,
+          "text": "170 мл молока",
+          "isCorrect": false
+        },
+        {
+          "id": 3,
+          "text": "140 мл молока",
+          "isCorrect": false
+        },
+        {
+          "id": 4,
+          "text": "120 мл молока",
+          "isCorrect": false
+        }
       ]
     },
     {
       "id": 11,
-      "text": "Сколько мл сливок/молока нужно для большого объема Рафа:",
+      "text": "Сколько мл сливок/молока нужно для большого объема Раф:",
       "hasOptions": true,
       "options": [
-        { "id": 1, "text": "80 сливок, 160 молока, 2 шота эспрессо", "isCorrect": false },
-        { "id": 2, "text": "100 сливок, 180 молока, 1 шот эспрессо", "isCorrect": false },
-        { "id": 3, "text": "80 сливок, 140 молока, 1 шот эспрессо", "isCorrect": true },
-        { "id": 4, "text": "160 сливок, 80 молока, 1 шот эспрессо", "isCorrect": false }
+        {
+          "id": 1,
+          "text": "80 сливок, 160 молока, 2 шота эспрессо",
+          "isCorrect": false
+        },
+        {
+          "id": 2,
+          "text": "100 сливок, 180 молока, 1 шот эспрессо",
+          "isCorrect": false
+        },
+        {
+          "id": 3,
+          "text": "80 сливок, 140 молока, 1 шот эспрессо",
+          "isCorrect": true
+        },
+        {
+          "id": 4,
+          "text": "160 сливок, 80 молока, 1 шот эспрессо",
+          "isCorrect": false
+        }
       ]
     },
     {
@@ -126,10 +302,26 @@
       "text": "Сколько эспрессо добавляется в стандартный объем Американо:",
       "hasOptions": true,
       "options": [
-        { "id": 1, "text": "1 шот эспрессо", "isCorrect": false },
-        { "id": 2, "text": "3 шота эспрессо", "isCorrect": false },
-        { "id": 3, "text": "2 шота эспрессо", "isCorrect": true },
-        { "id": 4, "text": "1,5 шота эспрессо", "isCorrect": false }
+        {
+          "id": 1,
+          "text": "1 шот эспрессо",
+          "isCorrect": false
+        },
+        {
+          "id": 2,
+          "text": "3 шота эспрессо",
+          "isCorrect": false
+        },
+        {
+          "id": 3,
+          "text": "2 шота эспрессо",
+          "isCorrect": true
+        },
+        {
+          "id": 4,
+          "text": "1,5 шота эспрессо",
+          "isCorrect": false
+        }
       ]
     },
     {
@@ -137,10 +329,26 @@
       "text": "Как готовится Какао:",
       "hasOptions": true,
       "options": [
-        { "id": 1, "text": "130 мл молока, 7 г какао", "isCorrect": false },
-        { "id": 2, "text": "150 мл молока, 1 г какао", "isCorrect": false },
-        { "id": 3, "text": "180 мл молока, 17 г какао", "isCorrect": false },
-        { "id": 4, "text": "150 мл молока, 13,5 г какао", "isCorrect": true }
+        {
+          "id": 1,
+          "text": "130 мл молока, 7 г какао",
+          "isCorrect": false
+        },
+        {
+          "id": 2,
+          "text": "150 мл молока, 1 г какао",
+          "isCorrect": false
+        },
+        {
+          "id": 3,
+          "text": "180 мл молока, 17 г какао",
+          "isCorrect": false
+        },
+        {
+          "id": 4,
+          "text": "150 мл молока, 13,5 г какао",
+          "isCorrect": true
+        }
       ]
     },
     {
@@ -148,10 +356,26 @@
       "text": "Как готовится большой объем Матча-Латте:",
       "hasOptions": true,
       "options": [
-        { "id": 1, "text": "230 мл молока, 2 г матчи", "isCorrect": true },
-        { "id": 2, "text": "150 мл молока, 13,5 г матчи", "isCorrect": false },
-        { "id": 3, "text": "180 мл молока, 1,7 г матчи", "isCorrect": false },
-        { "id": 4, "text": "210 мл молока, 2 г матчи", "isCorrect": false }
+        {
+          "id": 1,
+          "text": "230 мл молока, 2 г матчи",
+          "isCorrect": true
+        },
+        {
+          "id": 2,
+          "text": "150 мл молока, 13,5 г матчи",
+          "isCorrect": false
+        },
+        {
+          "id": 3,
+          "text": "180 мл молока, 1,7 г матчи",
+          "isCorrect": false
+        },
+        {
+          "id": 4,
+          "text": "210 мл молока, 2 г матчи",
+          "isCorrect": false
+        }
       ]
     },
     {
@@ -159,10 +383,26 @@
       "text": "Как готовится большой Моккачино:",
       "hasOptions": true,
       "options": [
-        { "id": 1, "text": "210 мл молока/ 1 эспрессо/ 15 г соуса шоколад", "isCorrect": true },
-        { "id": 2, "text": "230 мл молока/ 0,5 эспрессо/ 10 г соуса шоколад", "isCorrect": false },
-        { "id": 3, "text": "250 мл молока/ 2 эспрессо/ 15 г соуса шоколад", "isCorrect": false },
-        { "id": 4, "text": "240 мл молока/ 2 эспрессо/ 20 г соуса шоколад", "isCorrect": false }
+        {
+          "id": 1,
+          "text": "210 мл молока/1 эспрессо/ 15 г соуса",
+          "isCorrect": true
+        },
+        {
+          "id": 2,
+          "text": "230 мл молока/0,5 эспрессо/ 10 г соуса",
+          "isCorrect": false
+        },
+        {
+          "id": 3,
+          "text": "250 мл молока/2 эспрессо/ 15 г соуса",
+          "isCorrect": false
+        },
+        {
+          "id": 4,
+          "text": "240 мл молока/2 эспрессо/ 20 г соуса",
+          "isCorrect": false
+        }
       ]
     }
   ],
@@ -172,10 +412,26 @@
       "text": "Сколько мл молока идет в большой Айс-Латте:",
       "hasOptions": true,
       "options": [
-        { "id": 1, "text": "150 мл молока", "isCorrect": false },
-        { "id": 2, "text": "180 мл молока", "isCorrect": false },
-        { "id": 3, "text": "200 мл молока", "isCorrect": false },
-        { "id": 4, "text": "250 мл молока", "isCorrect": true }
+        {
+          "id": 1,
+          "text": "150 мл молока",
+          "isCorrect": false
+        },
+        {
+          "id": 2,
+          "text": "180 мл молока",
+          "isCorrect": false
+        },
+        {
+          "id": 3,
+          "text": "200 мл молока",
+          "isCorrect": false
+        },
+        {
+          "id": 4,
+          "text": "250 мл молока",
+          "isCorrect": true
+        }
       ]
     },
     {
@@ -183,10 +439,26 @@
       "text": "Сколько шотов добавляется в стандартный Айс-Американо:",
       "hasOptions": true,
       "options": [
-        { "id": 1, "text": "2 шота эспрессо", "isCorrect": true },
-        { "id": 2, "text": "1 шот эспрессо", "isCorrect": false },
-        { "id": 3, "text": "4 шота эспрессо", "isCorrect": false },
-        { "id": 4, "text": "3 шота эспрессо", "isCorrect": false }
+        {
+          "id": 1,
+          "text": "2 шота эспрессо",
+          "isCorrect": true
+        },
+        {
+          "id": 2,
+          "text": "1 шот эспрессо",
+          "isCorrect": false
+        },
+        {
+          "id": 3,
+          "text": "4 шота эспрессо",
+          "isCorrect": false
+        },
+        {
+          "id": 4,
+          "text": "3 шота эспрессо",
+          "isCorrect": false
+        }
       ]
     },
     {
@@ -194,10 +466,26 @@
       "text": "Сколько мл молока идет в большой Айс-Капучино:",
       "hasOptions": true,
       "options": [
-        { "id": 1, "text": "100 мл молока", "isCorrect": false },
-        { "id": 2, "text": "150 мл молока", "isCorrect": true },
-        { "id": 3, "text": "130 мл молока", "isCorrect": false },
-        { "id": 4, "text": "170 мл молока", "isCorrect": false }
+        {
+          "id": 1,
+          "text": "100 мл молока",
+          "isCorrect": false
+        },
+        {
+          "id": 2,
+          "text": "150 мл молока",
+          "isCorrect": true
+        },
+        {
+          "id": 3,
+          "text": "130 мл молока",
+          "isCorrect": false
+        },
+        {
+          "id": 4,
+          "text": "170 мл молока",
+          "isCorrect": false
+        }
       ]
     },
     {
@@ -205,10 +493,26 @@
       "text": "Сколько мл молока идет в Айс-Моккачино:",
       "hasOptions": true,
       "options": [
-        { "id": 1, "text": "110 мл молока, 1 шот эспрессо, 8 г соуса", "isCorrect": false },
-        { "id": 2, "text": "80 мл молока, 0,5 шота эспрессо, 12 г соуса", "isCorrect": false },
-        { "id": 3, "text": "100 мл молока, 0,5 шота эспрессо, 10 г соуса", "isCorrect": true },
-        { "id": 4, "text": "140 мл молока, 1 шота эспрессо, 15 г соуса", "isCorrect": false }
+        {
+          "id": 1,
+          "text": "110 мл молока, 1 эспрессо, 8 г соуса",
+          "isCorrect": false
+        },
+        {
+          "id": 2,
+          "text": "80 мл молока, 0,5 эспрессо, 12 г соуса",
+          "isCorrect": false
+        },
+        {
+          "id": 3,
+          "text": "100 мл молока, 0,5 эспрессо, 10 г соуса",
+          "isCorrect": true
+        },
+        {
+          "id": 4,
+          "text": "140 мл молока, 1 эспрессо, 15 г соуса",
+          "isCorrect": false
+        }
       ]
     },
     {
@@ -216,10 +520,26 @@
       "text": "Сколько мл сливок/молока идет в большой Айс-Раф:",
       "hasOptions": true,
       "options": [
-        { "id": 1, "text": "80 сливок/140 молока/ 1 эспрессо", "isCorrect": true },
-        { "id": 2, "text": "50 сливок/100 молока/ 2 эспрессо", "isCorrect": false },
-        { "id": 3, "text": "90 сливок/160 молока/ 2 эспрессо", "isCorrect": false },
-        { "id": 4, "text": "85 сливок/145 молока/ 1,5 эспрессо", "isCorrect": false }
+        {
+          "id": 1,
+          "text": "80 сливок/140 молока/1 эспрессо",
+          "isCorrect": true
+        },
+        {
+          "id": 2,
+          "text": "50 сливок/100 молока/2 эспрессо",
+          "isCorrect": false
+        },
+        {
+          "id": 3,
+          "text": "90 сливок/160 молока/2 эспрессо",
+          "isCorrect": false
+        },
+        {
+          "id": 4,
+          "text": "85 сливок/145 молока/1,5 эспрессо",
+          "isCorrect": false
+        }
       ]
     },
     {
@@ -227,10 +547,26 @@
       "text": "Как готовится стандартное Айс-Какао:",
       "hasOptions": true,
       "options": [
-        { "id": 1, "text": "180 молока/17 г какао", "isCorrect": false },
-        { "id": 2, "text": "100 молока/13,5 г какао", "isCorrect": true },
-        { "id": 3, "text": "160 молока/15 г какао", "isCorrect": false },
-        { "id": 4, "text": "150 молока/25 г какао", "isCorrect": false }
+        {
+          "id": 1,
+          "text": "180 молока/17 г какао",
+          "isCorrect": false
+        },
+        {
+          "id": 2,
+          "text": "100 молока/13,5 г какао",
+          "isCorrect": true
+        },
+        {
+          "id": 3,
+          "text": "160 молока/15 г какао",
+          "isCorrect": false
+        },
+        {
+          "id": 4,
+          "text": "150 молока/25 г какао",
+          "isCorrect": false
+        }
       ]
     },
     {
@@ -238,10 +574,26 @@
       "text": "Как готовится большая Айс-Матча-Латте:",
       "hasOptions": true,
       "options": [
-        { "id": 1, "text": "230 мл молока/23 г матча", "isCorrect": false },
-        { "id": 2, "text": "250 мл молока/7 г матча", "isCorrect": false },
-        { "id": 3, "text": "200 мл молока/2 г матча", "isCorrect": true },
-        { "id": 4, "text": "180 мл молока/1,7 г матча", "isCorrect": false }
+        {
+          "id": 1,
+          "text": "230 мл молока/23 г матча",
+          "isCorrect": false
+        },
+        {
+          "id": 2,
+          "text": "250 мл молока/7 г матча",
+          "isCorrect": false
+        },
+        {
+          "id": 3,
+          "text": "200 мл молока/2 г матча",
+          "isCorrect": true
+        },
+        {
+          "id": 4,
+          "text": "180 мл молока/1,7 г матча",
+          "isCorrect": false
+        }
       ]
     },
     {
@@ -249,10 +601,26 @@
       "text": "Сколько мл молока идет в стандартный Айс-Латте:",
       "hasOptions": true,
       "options": [
-        { "id": 1, "text": "130 мл молока", "isCorrect": false },
-        { "id": 2, "text": "100 мл молока", "isCorrect": false },
-        { "id": 3, "text": "120 мл молока", "isCorrect": false },
-        { "id": 4, "text": "150 мл молока", "isCorrect": true }
+        {
+          "id": 1,
+          "text": "130 мл молока",
+          "isCorrect": false
+        },
+        {
+          "id": 2,
+          "text": "100 мл молока",
+          "isCorrect": false
+        },
+        {
+          "id": 3,
+          "text": "120 мл молока",
+          "isCorrect": false
+        },
+        {
+          "id": 4,
+          "text": "150 мл молока",
+          "isCorrect": true
+        }
       ]
     },
     {
@@ -260,10 +628,26 @@
       "text": "Сколько шотов добавляется в большой Айс-Американо:",
       "hasOptions": true,
       "options": [
-        { "id": 1, "text": "3 шота эспрессо", "isCorrect": true },
-        { "id": 2, "text": "4 шота эспрессо", "isCorrect": false },
-        { "id": 3, "text": "3,5 шота эспрессо", "isCorrect": false },
-        { "id": 4, "text": "5 шота эспрессо", "isCorrect": false }
+        {
+          "id": 1,
+          "text": "3 шота эспрессо",
+          "isCorrect": true
+        },
+        {
+          "id": 2,
+          "text": "4 шота эспрессо",
+          "isCorrect": false
+        },
+        {
+          "id": 3,
+          "text": "3,5 шота эспрессо",
+          "isCorrect": false
+        },
+        {
+          "id": 4,
+          "text": "5 шота эспрессо",
+          "isCorrect": false
+        }
       ]
     },
     {
@@ -271,10 +655,26 @@
       "text": "Сколько мл молока идет в Айс-Капучино:",
       "hasOptions": true,
       "options": [
-        { "id": 1, "text": "100 мл молока", "isCorrect": false },
-        { "id": 2, "text": "80 мл молока", "isCorrect": true },
-        { "id": 3, "text": "150 мл молока", "isCorrect": false },
-        { "id": 4, "text": "90 мл молока", "isCorrect": false }
+        {
+          "id": 1,
+          "text": "100 мл молока",
+          "isCorrect": false
+        },
+        {
+          "id": 2,
+          "text": "80 мл молока",
+          "isCorrect": true
+        },
+        {
+          "id": 3,
+          "text": "150 мл молока",
+          "isCorrect": false
+        },
+        {
+          "id": 4,
+          "text": "90 мл молока",
+          "isCorrect": false
+        }
       ]
     },
     {
@@ -282,10 +682,26 @@
       "text": "Как готовится большой Айс-Моккачино:",
       "hasOptions": true,
       "options": [
-        { "id": 1, "text": "200 мл молока/2 шот эспрессо/15 г соуса", "isCorrect": false },
-        { "id": 2, "text": "180 мл молока/3 шота эспрессо/20 г соуса", "isCorrect": false },
-        { "id": 3, "text": "150 мл молока/1 шот эспрессо/15 г соуса", "isCorrect": true },
-        { "id": 4, "text": "230 мл молока/2 шота эспрессо/16 г соуса", "isCorrect": false }
+        {
+          "id": 1,
+          "text": "200 мл молока/2 эспрессо/15 г соуса",
+          "isCorrect": false
+        },
+        {
+          "id": 2,
+          "text": "180 мл молока/3 эспрессо/20 г соуса",
+          "isCorrect": false
+        },
+        {
+          "id": 3,
+          "text": "150 мл молока/1 эспрессо/15 г соуса",
+          "isCorrect": true
+        },
+        {
+          "id": 4,
+          "text": "230 мл молока/2 эспрессо/16 г соуса",
+          "isCorrect": false
+        }
       ]
     },
     {
@@ -293,10 +709,26 @@
       "text": "Сколько мл сливок/молока идет в Айс-Раф:",
       "hasOptions": true,
       "options": [
-        { "id": 1, "text": "80 сливок/140 молока/1 шот эспрессо", "isCorrect": false },
-        { "id": 2, "text": "50 сливок/50 молока/0,5 шота эспрессо", "isCorrect": false },
-        { "id": 3, "text": "50 сливок/90 молока/0,5 шота эспрессо", "isCorrect": true },
-        { "id": 4, "text": "70 сливок/70 молока/1 шот эспрессо", "isCorrect": false }
+        {
+          "id": 1,
+          "text": "80 сливок/140 молока/1 эспрессо",
+          "isCorrect": false
+        },
+        {
+          "id": 2,
+          "text": "50 сливок/50 молока/0,5 эспрессо",
+          "isCorrect": false
+        },
+        {
+          "id": 3,
+          "text": "50 сливок/90 молока/0,5 эспрессо",
+          "isCorrect": true
+        },
+        {
+          "id": 4,
+          "text": "70 сливок/70 молока/1 эспрессо",
+          "isCorrect": false
+        }
       ]
     },
     {
@@ -304,10 +736,26 @@
       "text": "Как готовится большое Айс-Какао:",
       "hasOptions": true,
       "options": [
-        { "id": 1, "text": "150 мл молока, 2 г какао", "isCorrect": false },
-        { "id": 2, "text": "100 мл молока, 13,5 г какао", "isCorrect": false },
-        { "id": 3, "text": "200 мл молока, 28 г какао", "isCorrect": true },
-        { "id": 4, "text": "145 мл молока, 27 г какао", "isCorrect": false }
+        {
+          "id": 1,
+          "text": "150 мл молока, 2 г какао",
+          "isCorrect": false
+        },
+        {
+          "id": 2,
+          "text": "100 мл молока, 13,5 г какао",
+          "isCorrect": false
+        },
+        {
+          "id": 3,
+          "text": "200 мл молока, 28 г какао",
+          "isCorrect": true
+        },
+        {
+          "id": 4,
+          "text": "145 мл молока, 27 г какао",
+          "isCorrect": false
+        }
       ]
     },
     {
@@ -315,10 +763,26 @@
       "text": "Как готовится Айс-Матча-Латте:",
       "hasOptions": true,
       "options": [
-        { "id": 1, "text": "130 мл молока, 7 г матча", "isCorrect": false },
-        { "id": 2, "text": "150 мл молока, 28 г матча", "isCorrect": false },
-        { "id": 3, "text": "140 мл молока, 1 г матча", "isCorrect": true },
-        { "id": 4, "text": "80 мл молока, 2 г матча", "isCorrect": false }
+        {
+          "id": 1,
+          "text": "130 мл молока, 7 г матча",
+          "isCorrect": false
+        },
+        {
+          "id": 2,
+          "text": "150 мл молока, 28 г матча",
+          "isCorrect": false
+        },
+        {
+          "id": 3,
+          "text": "140 мл молока, 1 г матча",
+          "isCorrect": true
+        },
+        {
+          "id": 4,
+          "text": "80 мл молока, 2 г матча",
+          "isCorrect": false
+        }
       ]
     }
   ],
@@ -328,10 +792,26 @@
       "text": "Сколько альтернативного молока нужно для Капучино на альтернативе:",
       "hasOptions": true,
       "options": [
-        { "id": 1, "text": "140 мл молока на альтернативе", "isCorrect": true },
-        { "id": 2, "text": "110 мл молока на альтернативе", "isCorrect": false },
-        { "id": 3, "text": "80 мл молока на альтернативе", "isCorrect": false },
-        { "id": 4, "text": "130 мл молока на альтернативе", "isCorrect": false }
+        {
+          "id": 1,
+          "text": "140 мл молока на альтернативе",
+          "isCorrect": true
+        },
+        {
+          "id": 2,
+          "text": "110 мл молока на альтернативе",
+          "isCorrect": false
+        },
+        {
+          "id": 3,
+          "text": "80 мл молока на альтернативе",
+          "isCorrect": false
+        },
+        {
+          "id": 4,
+          "text": "130 мл молока на альтернативе",
+          "isCorrect": false
+        }
       ]
     },
     {
@@ -339,10 +819,26 @@
       "text": "Как готовится на альтернативном молоке Флэт Уайт:",
       "hasOptions": true,
       "options": [
-        { "id": 1, "text": "130 мл молока/1 шот эспрессо", "isCorrect": false },
-        { "id": 2, "text": "150 мл молока/0,5 шота эспрессо", "isCorrect": false },
-        { "id": 3, "text": "80 мл молока/2 шота эспрессо", "isCorrect": false },
-        { "id": 4, "text": "110 мл молока/2 шота эспрессо", "isCorrect": true }
+        {
+          "id": 1,
+          "text": "130 мл молока/1 эспрессо",
+          "isCorrect": false
+        },
+        {
+          "id": 2,
+          "text": "150 мл молока/0,5 эспрессо",
+          "isCorrect": false
+        },
+        {
+          "id": 3,
+          "text": "80 мл молока/2 эспрессо",
+          "isCorrect": false
+        },
+        {
+          "id": 4,
+          "text": "110 мл молока/2 эспрессо",
+          "isCorrect": true
+        }
       ]
     },
     {
@@ -350,10 +846,26 @@
       "text": "Сколько альтернативного молока и матчи нужно для Матча-Латте на альтернативе:",
       "hasOptions": true,
       "options": [
-        { "id": 1, "text": "150 мл молока/1,7 г матчи", "isCorrect": false },
-        { "id": 2, "text": "180 мл молока/2,5 г матчи", "isCorrect": false },
-        { "id": 3, "text": "140 мл молока/1 г матчи", "isCorrect": true },
-        { "id": 4, "text": "230 мл молока/2 г матчи", "isCorrect": false }
+        {
+          "id": 1,
+          "text": "150 мл молока/1,7 г матчи",
+          "isCorrect": false
+        },
+        {
+          "id": 2,
+          "text": "180 мл молока/2,5 г матчи",
+          "isCorrect": false
+        },
+        {
+          "id": 3,
+          "text": "140 мл молока/1 г матчи",
+          "isCorrect": true
+        },
+        {
+          "id": 4,
+          "text": "230 мл молока/2 г матчи",
+          "isCorrect": false
+        }
       ]
     },
     {
@@ -361,10 +873,26 @@
       "text": "Выберите правильную рецептуру приготовления Моккачино на альтернативе:",
       "hasOptions": true,
       "options": [
-        { "id": 1, "text": "130 мл молока/1 эспрессо, 15 г соуса", "isCorrect": false },
-        { "id": 2, "text": "140 мл молока/0,5 шота эспрессо, 12 г соуса", "isCorrect": false },
-        { "id": 3, "text": "80 мл молока/2 шота эспрессо, 8 г соуса", "isCorrect": false },
-        { "id": 4, "text": "110 мл молока/0,5 шота эспрессо, 10 г соуса", "isCorrect": true }
+        {
+          "id": 1,
+          "text": "130 мл молока/1 эспрессо, 15 г соуса",
+          "isCorrect": false
+        },
+        {
+          "id": 2,
+          "text": "140 мл молока/0,5 эспрессо, 12 г соуса",
+          "isCorrect": false
+        },
+        {
+          "id": 3,
+          "text": "80 мл молока/2 эспрессо, 8 г соуса",
+          "isCorrect": false
+        },
+        {
+          "id": 4,
+          "text": "110 мл молока/0,5 эспрессо, 10 г соуса",
+          "isCorrect": true
+        }
       ]
     },
     {
@@ -372,10 +900,26 @@
       "text": "Сколько альтернативного молока нужно для Латте на альтернативе:",
       "hasOptions": true,
       "options": [
-        { "id": 1, "text": "150 мл молока на альтернативе", "isCorrect": true },
-        { "id": 2, "text": "140 мл молока на альтернативе", "isCorrect": false },
-        { "id": 3, "text": "180 мл молока на альтернативе", "isCorrect": false },
-        { "id": 4, "text": "135 мл молока на альтернативе", "isCorrect": false }
+        {
+          "id": 1,
+          "text": "150 мл молока на альтернативе",
+          "isCorrect": true
+        },
+        {
+          "id": 2,
+          "text": "140 мл молока на альтернативе",
+          "isCorrect": false
+        },
+        {
+          "id": 3,
+          "text": "180 мл молока на альтернативе",
+          "isCorrect": false
+        },
+        {
+          "id": 4,
+          "text": "135 мл молока на альтернативе",
+          "isCorrect": false
+        }
       ]
     },
     {
@@ -383,10 +927,26 @@
       "text": "Выберите рецептуру приготовления Раф на альтернативе:",
       "hasOptions": true,
       "options": [
-        { "id": 1, "text": "140 мл молока/50 мл сливок/ 0,5 шота эспрессо", "isCorrect": false },
-        { "id": 2, "text": "150 мл молока/1 шот эспрессо", "isCorrect": false },
-        { "id": 3, "text": "140 мл молока/0,5 шота эспрессо", "isCorrect": true },
-        { "id": 4, "text": "50 мл сливок/90 мл молока, 0,5 шота эспрессо", "isCorrect": false }
+        {
+          "id": 1,
+          "text": "140 мл молока/50 мл сливок/ 0,5 эспрессо",
+          "isCorrect": false
+        },
+        {
+          "id": 2,
+          "text": "150 мл молока/1 эспрессо",
+          "isCorrect": false
+        },
+        {
+          "id": 3,
+          "text": "140 мл молока/0,5 эспрессо",
+          "isCorrect": true
+        },
+        {
+          "id": 4,
+          "text": "50 мл сливок/90 мл молока/0,5 эспрессо",
+          "isCorrect": false
+        }
       ]
     },
     {
@@ -394,10 +954,26 @@
       "text": "Как готовится Какао на альтернативе:",
       "hasOptions": true,
       "options": [
-        { "id": 1, "text": "140 мл молока/15 г какао", "isCorrect": false },
-        { "id": 2, "text": "130 мл молока/18 г какао", "isCorrect": false },
-        { "id": 3, "text": "110 мл молока/7 г какао", "isCorrect": false },
-        { "id": 4, "text": "150 мл молока//13,5 г какао", "isCorrect": true }
+        {
+          "id": 1,
+          "text": "140 мл молока/15 г какао",
+          "isCorrect": false
+        },
+        {
+          "id": 2,
+          "text": "130 мл молока/18 г какао",
+          "isCorrect": false
+        },
+        {
+          "id": 3,
+          "text": "110 мл молока/7 г какао",
+          "isCorrect": false
+        },
+        {
+          "id": 4,
+          "text": "150 мл молока//13,5 г какао",
+          "isCorrect": true
+        }
       ]
     }
   ],
@@ -407,10 +983,26 @@
       "text": "Сколько альтернативного молока нужно для Айс-Латте на альтернативе:",
       "hasOptions": true,
       "options": [
-        { "id": 1, "text": "140 мл молока на альтернативе", "isCorrect": true },
-        { "id": 2, "text": "160 мл молока на альтернативе", "isCorrect": false },
-        { "id": 3, "text": "180 мл молока на альтернативе", "isCorrect": false },
-        { "id": 4, "text": "120 мл молока на альтернативе", "isCorrect": false }
+        {
+          "id": 1,
+          "text": "140 мл молока на альтернативе",
+          "isCorrect": true
+        },
+        {
+          "id": 2,
+          "text": "160 мл молока на альтернативе",
+          "isCorrect": false
+        },
+        {
+          "id": 3,
+          "text": "180 мл молока на альтернативе",
+          "isCorrect": false
+        },
+        {
+          "id": 4,
+          "text": "120 мл молока на альтернативе",
+          "isCorrect": false
+        }
       ]
     },
     {
@@ -418,10 +1010,26 @@
       "text": "Выберите правильную рецептуру приготовления Айс-Какао на альтернативе:",
       "hasOptions": true,
       "options": [
-        { "id": 1, "text": "80 мл молока на альтернативе/15 г какао", "isCorrect": false },
-        { "id": 2, "text": "180 мл молока на альтернативе/18 г какао", "isCorrect": false },
-        { "id": 3, "text": "100 мл молока на альтернативе/13,5 г какао", "isCorrect": true },
-        { "id": 4, "text": "140 мл молока на альтернативе/7,5 г какао", "isCorrect": false }
+        {
+          "id": 1,
+          "text": "80 мл молока на альтернативе/15 г какао",
+          "isCorrect": false
+        },
+        {
+          "id": 2,
+          "text": "180 мл молока на альтернативе/18 г какао",
+          "isCorrect": false
+        },
+        {
+          "id": 3,
+          "text": "100 мл молока на альтернативе/13,5 г какао",
+          "isCorrect": true
+        },
+        {
+          "id": 4,
+          "text": "140 мл молока на альтернативе/7,5 г какао",
+          "isCorrect": false
+        }
       ]
     },
     {
@@ -429,10 +1037,26 @@
       "text": "Выберите правильную рецептуру приготовления Айс-Моккачино на альтернативе:",
       "hasOptions": true,
       "options": [
-        { "id": 1, "text": "110 мл молока на альтернативе, 1 шот эспрессо, 15 г соуса", "isCorrect": false },
-        { "id": 2, "text": "80 мл молока на альтернативе, 0,5 шота эспрессо, 10 г соуса", "isCorrect": true },
-        { "id": 3, "text": "140 мл молока на альтернативе, 1 шот эспрессо, 12 г соуса", "isCorrect": false },
-        { "id": 4, "text": "90 мл молока на альтернативе, 0,5 шота эспрессо, 8 г соуса", "isCorrect": false }
+        {
+          "id": 1,
+          "text": "110 мл молока, 1 эспрессо, 15 г соуса",
+          "isCorrect": false
+        },
+        {
+          "id": 2,
+          "text": "80 мл молока, 0,5 эспрессо, 10 г соуса",
+          "isCorrect": true
+        },
+        {
+          "id": 3,
+          "text": "140 мл молока, 1 эспрессо, 12 г соуса",
+          "isCorrect": false
+        },
+        {
+          "id": 4,
+          "text": "90 мл молока, 0,5 эспрессо, 8 г соуса",
+          "isCorrect": false
+        }
       ]
     },
     {
@@ -440,21 +1064,53 @@
       "text": "Сколько альтернативного молока нужно для Айс-Капучино на альтернативе:",
       "hasOptions": true,
       "options": [
-        { "id": 1, "text": "100 мл молока на альтернативе", "isCorrect": false },
-        { "id": 2, "text": "150 мл молока на альтернативе", "isCorrect": false },
-        { "id": 3, "text": "80 мл молока на альтернативе", "isCorrect": true },
-        { "id": 4, "text": "120 мл молока на альтернативе", "isCorrect": false }
+        {
+          "id": 1,
+          "text": "100 мл молока на альтернативе",
+          "isCorrect": false
+        },
+        {
+          "id": 2,
+          "text": "150 мл молока на альтернативе",
+          "isCorrect": false
+        },
+        {
+          "id": 3,
+          "text": "80 мл молока на альтернативе",
+          "isCorrect": true
+        },
+        {
+          "id": 4,
+          "text": "120 мл молока на альтернативе",
+          "isCorrect": false
+        }
       ]
     },
     {
       "id": 5,
-      "text": "Сколько альтернативного молока нужно для Айс-Рафа на альтернативе:",
+      "text": "Сколько альтернативного молока нужно для Айс-Раф на альтернативе:",
       "hasOptions": true,
       "options": [
-        { "id": 1, "text": "100 мл молока на альтернативе/50 сливок/0,5 шота эспрессо", "isCorrect": false },
-        { "id": 2, "text": "80 мл молока на альтернативе/40 сливок/ 1 шот эспрессо", "isCorrect": false },
-        { "id": 3, "text": "100 мл молока на альтернативе/0,5 шота эспрессо", "isCorrect": true },
-        { "id": 4, "text": "140 мл молока на альтернативе/1 шот эспрессо", "isCorrect": false }
+        {
+          "id": 1,
+          "text": "100 мл молока/50 сливок/0,5 эспрессо",
+          "isCorrect": false
+        },
+        {
+          "id": 2,
+          "text": "80 мл молока/40 сливок/1 эспрессо",
+          "isCorrect": false
+        },
+        {
+          "id": 3,
+          "text": "100 мл молока/0,5 эспрессо",
+          "isCorrect": true
+        },
+        {
+          "id": 4,
+          "text": "140 мл молока/1 эспрессо",
+          "isCorrect": false
+        }
       ]
     },
     {
@@ -462,113 +1118,273 @@
       "text": "Выберите правильную рецептуру приготовления Айс-Матча на альтернативе:",
       "hasOptions": true,
       "options": [
-        { "id": 1, "text": "80 мл молока на альтернативе/1 г матча", "isCorrect": false },
-        { "id": 2, "text": "180 мл молока на альтернативе/1,7 г матча", "isCorrect": false },
-        { "id": 3, "text": "130 мл молока на альтернативе/7 г матча", "isCorrect": false },
-        { "id": 4, "text": "140 мл молока на альтернативе/1 г матча", "isCorrect": true }
+        {
+          "id": 1,
+          "text": "80 мл молока/1 г матча",
+          "isCorrect": false
+        },
+        {
+          "id": 2,
+          "text": "180 мл молока/1,7 г матча",
+          "isCorrect": false
+        },
+        {
+          "id": 3,
+          "text": "130 мл молока/7 г матча",
+          "isCorrect": false
+        },
+        {
+          "id": 4,
+          "text": "140 мл молока/1 г матча",
+          "isCorrect": true
+        }
       ]
     }
   ],
   "lemonades": [
-      {
-        "id": 1,
-        "text": "Выберите правильную рецептуру на стандартный Лимонад Блю Кюрасао-Малина:",
-        "hasOptions": true,
-        "options": [
-          { "id": 1, "text": "3 пампа блю кюрасао, 2 пампа малина, 0.5 пампа лимона", "isCorrect": false },
-          { "id": 2, "text": "3 пампа малина, 2 пампа блю кюрасао, 0.5 пампа лимона", "isCorrect": false },
-          { "id": 3, "text": "2 пампа блю кюрасао, 1 памп малина, 0.5 пампа лимона", "isCorrect": true },
-          { "id": 4, "text": "2 пампа малина, 1 памп блю кюрасао, 1 памп лимона", "isCorrect": false }
-        ]
-      },
-      {
-        "id": 2,
-        "text": "Выберите правильную рецептуру на стандартный Лимонад Eжевика-Cмородина:",
-        "hasOptions": true,
-        "options": [
-          { "id": 1, "text": "2 пампа ежевики, 1 пампа смородина, 0.5 пампа лимона", "isCorrect": false },
-          { "id": 2, "text": "2 пампа смородина, 2 памп ежевики, 0.5 пампа лимона", "isCorrect": false },
-          { "id": 3, "text": "3 пампа ежевика, 2 пампа смородина, 0.5 пампа лимона", "isCorrect": true },
-          { "id": 4, "text": "2 пампа смородина, 1 пампа ежевики, 1 памп лимона", "isCorrect": false }
-        ]
-      },
-      {
-        "id": 3,
-        "text": "Выберите правильную рецептуру на Большой Лимонад Лимон-Мята:",
-        "hasOptions": true,
-        "options": [
-          { "id": 1, "text": "2 пампа лимона, 2 пампа мяты", "isCorrect": false },
-          { "id": 2, "text": "2 пампа лимона, 1 памп мяты", "isCorrect": true },
-          { "id": 3, "text": "1 памп лимона, 0.5 пампа мяты", "isCorrect": false },
-          { "id": 4, "text": "3 пампа лимона, 2 пампа мяты", "isCorrect": false }
-        ]
-      },
-      {
-        "id": 4,
-        "text": "Выберите правильную рецептуру на стандартный Лимонад на основе пюре:",
-        "hasOptions": true,
-        "options": [
-          { "id": 1, "text": "30 г пюре", "isCorrect": false },
-          { "id": 2, "text": "45 г пюре", "isCorrect": true },
-          { "id": 3, "text": "20 г пюре", "isCorrect": true },
-          { "id": 4, "text": "35 г пюре", "isCorrect": false }
-        ]
-      },
-      {
-        "id": 5,
-        "text": "Выберите правильную рецептуру на большой Лимонад Блю Кюрасао-Малина:",
-        "hasOptions": true,
-        "options": [
-          { "id": 1, "text": "3 пампа блю кюрасао, 2 пампа малина, 0.5 пампа лимона", "isCorrect": true },
-          { "id": 2, "text": "3 пампа малина, 2 пампа блю кюрасао, 0.5 пампа лимона", "isCorrect": false },
-          { "id": 3, "text": "2 пампа блю кюрасао, 1 памп малина, 0.5 пампа лимона", "isCorrect": false },
-          { "id": 4, "text": "2 пампа малина, 1 памп блю кюрасао, 1 памп лимона", "isCorrect": false }
-        ]
-      },
-      {
-        "id": 6,
-        "text": "Выберите правильную рецептуру на большой Лимонад Ежевика-Смородина:",
-        "hasOptions": true,
-        "options": [
-          { "id": 1, "text": "2 пампа ежевики, 1 пампа смородина, 0.5 пампа лимона", "isCorrect": false },
-          { "id": 2, "text": "2 пампа смородина, 2 памп ежевики, 0.5 пампа лимона", "isCorrect": false },
-          { "id": 3, "text": "3 пампа ежевика, 2 пампа смородина, 0.5 пампа лимона", "isCorrect": true },
-          { "id": 4, "text": "2 пампа смородина, 1 пампа ежевики, 1 памп лимона", "isCorrect": false }
-        ]
-      },
-      {
-        "id": 7,
-        "text": "Выберите правильную рецептуру на стандартный Лимонад Лимон-Мята:",
-        "hasOptions": true,
-        "options": [
-          { "id": 1, "text": "3 пампа лимона, 2 пампа мяты", "isCorrect": false },
-          { "id": 2, "text": "2 пампа лимона, 1 памп мяты", "isCorrect": false },
-          { "id": 3, "text": "1 памп лимона, 0.5 пампа мяты", "isCorrect": true },
-          { "id": 4, "text": "3 пампа лимона, 2 пампа мяты", "isCorrect": false }
-        ]
-      },
-      {
-        "id": 8,
-        "text": "Выберите правильную рецептуру на большой Лимонад на основе пюре:",
-        "hasOptions": true,
-        "options": [
-          { "id": 1, "text": "30 г пюре", "isCorrect": true },
-          { "id": 2, "text": "45 г пюре", "isCorrect": false },
-          { "id": 3, "text": "20 г пюре", "isCorrect": false },
-          { "id": 4, "text": "35 г пюре", "isCorrect": false }
-        ]
-      }
-    ],
+    {
+      "id": 1,
+      "text": "Выберите правильную рецептуру на стандартный Лимонад Блю Кюрасао-Малина:",
+      "hasOptions": true,
+      "options": [
+        {
+          "id": 1,
+          "text": "3 п блю кюрасао,2 п малина, 0.5 п лимона",
+          "isCorrect": false
+        },
+        {
+          "id": 2,
+          "text": "3 п малина, 2 п блю кюрасао, 0.5 п лимона",
+          "isCorrect": false
+        },
+        {
+          "id": 3,
+          "text": "2 п блю кюрасао,1 п малина, 0.5 п лимона",
+          "isCorrect": true
+        },
+        {
+          "id": 4,
+          "text": "2 п малина, 1 п блю кюрасао, 1 п лимона",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "text": "Выберите правильную рецептуру на стандартный Лимонад Eжевика-Cмородина:",
+      "hasOptions": true,
+      "options": [
+        {
+          "id": 1,
+          "text": "2 п ежевики, 1 п смородина, 0.5 п лимона",
+          "isCorrect": false
+        },
+        {
+          "id": 2,
+          "text": "2 п смородина, 2 п ежевики, 0.5 п лимона",
+          "isCorrect": false
+        },
+        {
+          "id": 3,
+          "text": "3 п ежевика, 2 п смородина, 0.5 п лимона",
+          "isCorrect": true
+        },
+        {
+          "id": 4,
+          "text": "2 п смородина, 1 п ежевики, 1 п лимона",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "text": "Выберите правильную рецептуру на Большой Лимонад Лимон-Мята:",
+      "hasOptions": true,
+      "options": [
+        {
+          "id": 1,
+          "text": "2 п лимона, 2 п мяты",
+          "isCorrect": false
+        },
+        {
+          "id": 2,
+          "text": "2 п лимона, 1 п мяты",
+          "isCorrect": true
+        },
+        {
+          "id": 3,
+          "text": "1 п лимона, 0.5 п мяты",
+          "isCorrect": false
+        },
+        {
+          "id": 4,
+          "text": "3 п лимона, 2 п мяты",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "text": "Выберите правильную рецептуру на стандартный Лимонад на основе пюре:",
+      "hasOptions": true,
+      "options": [
+        {
+          "id": 1,
+          "text": "30 г пюре",
+          "isCorrect": false
+        },
+        {
+          "id": 2,
+          "text": "45 г пюре",
+          "isCorrect": true
+        },
+        {
+          "id": 3,
+          "text": "20 г пюре",
+          "isCorrect": true
+        },
+        {
+          "id": 4,
+          "text": "35 г пюре",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "text": "Выберите правильную рецептуру на большой Лимонад Блю Кюрасао-Малина:",
+      "hasOptions": true,
+      "options": [
+        {
+          "id": 1,
+          "text": "3 п блю кюрасао, 2 п малина, 0.5 п лимона",
+          "isCorrect": true
+        },
+        {
+          "id": 2,
+          "text": "3 п малина, 2 п блю кюрасао, 0.5 п лимона",
+          "isCorrect": false
+        },
+        {
+          "id": 3,
+          "text": "2 п блю кюрасао, 1 п малина, 0.5 п лимона",
+          "isCorrect": false
+        },
+        {
+          "id": 4,
+          "text": "2 п малина, 1 п блю кюрасао, 1 п лимона",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "text": "Выберите правильную рецептуру на большой Лимонад Ежевика-Смородина:",
+      "hasOptions": true,
+      "options": [
+        {
+          "id": 1,
+          "text": "2 п ежевики, 1 п смородина, 0.5 п лимона",
+          "isCorrect": false
+        },
+        {
+          "id": 2,
+          "text": "2 п смородина, 2 п ежевики, 0.5 п лимона",
+          "isCorrect": false
+        },
+        {
+          "id": 3,
+          "text": "3 п ежевика, 2 п смородина, 0.5 п лимона",
+          "isCorrect": true
+        },
+        {
+          "id": 4,
+          "text": "2 п смородина, 1 п ежевики, 1 п лимона",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "text": "Выберите правильную рецептуру на стандартный Лимонад Лимон-Мята:",
+      "hasOptions": true,
+      "options": [
+        {
+          "id": 1,
+          "text": "3 п лимона, 2 п мяты",
+          "isCorrect": false
+        },
+        {
+          "id": 2,
+          "text": "2 п лимона, 1 п мяты",
+          "isCorrect": false
+        },
+        {
+          "id": 3,
+          "text": "1 п лимона, 0.5 п мяты",
+          "isCorrect": true
+        },
+        {
+          "id": 4,
+          "text": "3 п лимона, 2 п мяты",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "text": "Выберите правильную рецептуру на большой Лимонад на основе пюре:",
+      "hasOptions": true,
+      "options": [
+        {
+          "id": 1,
+          "text": "30 г пюре",
+          "isCorrect": true
+        },
+        {
+          "id": 2,
+          "text": "45 г пюре",
+          "isCorrect": false
+        },
+        {
+          "id": 3,
+          "text": "20 г пюре",
+          "isCorrect": false
+        },
+        {
+          "id": 4,
+          "text": "35 г пюре",
+          "isCorrect": false
+        }
+      ]
+    }
+  ],
   "tonic_bambl": [
     {
       "id": 1,
       "text": "Выберите правильную рецептуру приготовления Эспрессо-Тоника:",
       "hasOptions": true,
       "options": [
-        { "id": 1, "text": "180 мл тоника, 1 шот эспрессо", "isCorrect": true },
-        { "id": 2, "text": "200 мл тоника, 2 шота эспрессо", "isCorrect": false },
-        { "id": 3, "text": "160 мл тоника, 1 шот эспрессо", "isCorrect": false },
-        { "id": 4, "text": "220 мл тоника, 2 шота эспрессо", "isCorrect": false }
+        {
+          "id": 1,
+          "text": "180 мл тоника, 1 эспрессо",
+          "isCorrect": true
+        },
+        {
+          "id": 2,
+          "text": "200 мл тоника, 2 эспрессо",
+          "isCorrect": false
+        },
+        {
+          "id": 3,
+          "text": "160 мл тоника, 1 эспрессо",
+          "isCorrect": false
+        },
+        {
+          "id": 4,
+          "text": "220 мл тоника, 2 эспрессо",
+          "isCorrect": false
+        }
       ]
     },
     {
@@ -576,10 +1392,26 @@
       "text": "Выберите правильную рецептуру приготовления Какао-Тоника:",
       "hasOptions": true,
       "options": [
-        { "id": 1, "text": "180 мл тоника, 18 г какао", "isCorrect": true },
-        { "id": 2, "text": "200 мл тоника, 23,5 г какао", "isCorrect": false },
-        { "id": 3, "text": "160 мл тоника, 13,5 г какао", "isCorrect": false },
-        { "id": 4, "text": "220 мл тоника, 28 г какао", "isCorrect": false }
+        {
+          "id": 1,
+          "text": "180 мл тоника, 18 г какао",
+          "isCorrect": true
+        },
+        {
+          "id": 2,
+          "text": "200 мл тоника, 23,5 г какао",
+          "isCorrect": false
+        },
+        {
+          "id": 3,
+          "text": "160 мл тоника, 13,5 г какао",
+          "isCorrect": false
+        },
+        {
+          "id": 4,
+          "text": "220 мл тоника, 28 г какао",
+          "isCorrect": false
+        }
       ]
     },
     {
@@ -587,10 +1419,26 @@
       "text": "Выберите правильную рецептуру приготовления Матча-Тоника:",
       "hasOptions": true,
       "options": [
-        { "id": 1, "text": "180 мл тоника, 1,7 г матча", "isCorrect": true },
-        { "id": 2, "text": "200 мл тоника, 2 г матча", "isCorrect": false },
-        { "id": 3, "text": "150 мл тоника, 1 г матча", "isCorrect": false },
-        { "id": 4, "text": "130 мл тоника, 7 г матча", "isCorrect": false }
+        {
+          "id": 1,
+          "text": "180 мл тоника, 1,7 г матча",
+          "isCorrect": true
+        },
+        {
+          "id": 2,
+          "text": "200 мл тоника, 2 г матча",
+          "isCorrect": false
+        },
+        {
+          "id": 3,
+          "text": "150 мл тоника, 1 г матча",
+          "isCorrect": false
+        },
+        {
+          "id": 4,
+          "text": "130 мл тоника, 7 г матча",
+          "isCorrect": false
+        }
       ]
     },
     {
@@ -598,101 +1446,192 @@
       "text": "Выберите правильную рецептуру приготовления Апельсинового Бамбла:",
       "hasOptions": true,
       "options": [
-        { "id": 1, "text": "180 мл тоника, 1 шот эспрессо", "isCorrect": true },
-        { "id": 2, "text": "200 мл тоника, 2 шота эспрессо", "isCorrect": false },
-        { "id": 3, "text": "160 мл тоника, 1 шот эспрессо", "isCorrect": false },
-        { "id": 4, "text": "220 мл тоника, 2 шота эспрессо", "isCorrect": false }
+        {
+          "id": 1,
+          "text": "180 мл тоника, 1 эспрессо",
+          "isCorrect": true
+        },
+        {
+          "id": 2,
+          "text": "200 мл тоника, 2 эспрессо",
+          "isCorrect": false
+        },
+        {
+          "id": 3,
+          "text": "160 мл тоника, 1 эспрессо",
+          "isCorrect": false
+        },
+        {
+          "id": 4,
+          "text": "220 мл тоника, 2 эспрессо",
+          "isCorrect": false
+        }
       ]
     }
   ],
   "mix_drinks": [
-      {
-        "id": 1,
-        "text": "Как готовится сангрия:",
-        "hasOptions": false,
-        "answer": "200 мл сангрии переливаем в стакан для холодный напитков среднего объема;"
-      },
-      {
-        "id": 2,
-        "text": "Сколько мл свежевыжатого апельсинового сока идет в апельсиновый фрэш:",
-        "hasOptions": true,
-        "options": [
-          { "id": 1, "text": "280 мл и 8 кубиков льда", "isCorrect": false },
-          { "id": 2, "text": "250 мл", "isCorrect": false },
-          { "id": 3, "text": "200 мл", "isCorrect": true },
-          { "id": 4, "text": "200 мл и 4 кубика льда", "isCorrect": false }
-        ]
-      },
-      {
-        "id": 3,
-        "text": "Сколько грамм пюре нунжо для большого чая на основе пюре:",
-        "hasOptions": true,
-        "options": [
-          { "id": 1, "text": "40 г пюре", "isCorrect": false },
-          { "id": 2, "text": "30 г пюре", "isCorrect": false },
-          { "id": 3, "text": "45 г пюре", "isCorrect": true },
-          { "id": 4, "text": "60 г пюре", "isCorrect": false }
-        ]
-      },
-      {
-        "id": 4,
-        "text": "Выберите правильную рецептуру приготовления на стандартный милкшейк:",
-        "hasOptions": true,
-        "options": [
-          { "id": 1, "text": "15 г соуса, 150 мл молока, 1 памп сиропа", "isCorrect": false },
-          { "id": 2, "text": "7 г соуса, 100 мл молока, 2 пампа сиропа", "isCorrect": false },
-          { "id": 3, "text": "13,5 г соуса, 130 мл молока, 1,5 памп сиропа", "isCorrect": false },
-          { "id": 4, "text": "10 г соуса, 140 мл молока, 1 памп сиропа", "isCorrect": true }
-        ]
-      },
-      {
-        "id": 5,
-        "text": "Выберите правильную рецептуру приготовления на большой айс-милкшейк:",
-        "hasOptions": true,
-        "options": [
-          { "id": 1, "text": "17 г соуса, 180 мл молока, 1 памп сиропа", "isCorrect": false },
-          { "id": 2, "text": "15 г соуса, 150 мл молока, 2 пампа сиропа", "isCorrect": true },
-          { "id": 3, "text": "13,5 г соуса, 120 мл молока, 2 пампа сиропа", "isCorrect": false },
-          { "id": 4, "text": "8 г соуса, 12 мл молока, 1 памп сиропа", "isCorrect": false }
-        ]
-      },
-      {
-        "id": 6,
-        "text": "Сколько молока нужно для бэбичино:",
-        "hasOptions": true,
-        "options": [
-          { "id": 1, "text": "130 мл молока", "isCorrect": true },
-          { "id": 2, "text": "150 мл молока", "isCorrect": false },
-          { "id": 3, "text": "110 мл молока", "isCorrect": false },
-          { "id": 4, "text": "80 мл молока", "isCorrect": false }
-        ]
-      },
-      {
-        "id": 7,
-        "text": "Как готовится гречишный чай:",
-        "hasOptions": false,
-        "answer": "5 г гречишного чая в белый пакет для заварки. Пакет с чаем кладем в большой стакан для горячих напитков и заливаем горячей водой с бойлера"
-      },
-      {
-        "id": 8,
-        "text": "Выберите правильную рецептуру приготовления pepperchino:",
-        "hasOptions": true,
-        "options": [
-          { "id": 1, "text": "130 мл молока/1 эспрессо/1 памп пряных специй/3 капли табаско", "isCorrect": false },
-          { "id": 2, "text": "210 мл молока/2 эспрессо/3 пампа пряных специй/5 капель табаско", "isCorrect": false },
-          { "id": 3, "text": "110 мл молока/1 эспрессо/2 пампа пряных специй/3 капли табаско", "isCorrect": true },
-          { "id": 4, "text": "150 мл молока/1 эспрессо/1 памп пряных специй/4 капли табаско", "isCorrect": false }
-        ]
-      },
-      {
-        "id": 9,
-        "text": "Как готовится большой рафоэлло:",
-        "hasOptions": false,
-        "answer": "80 мл сливок/140 мл молока/1 эспрессо/2 пампа кокоса/1 памп миндаля"
-      },
+    {
+      "id": 1,
+      "text": "Как готовится сангрия:",
+      "hasOptions": false,
+      "answer": "200 мл сангрии переливаем в стакан для холодный напитков среднего объема;"
+    },
+    {
+      "id": 2,
+      "text": "Сколько мл свежевыжатого апельсинового сока идет в апельсиновый фрэш:",
+      "hasOptions": true,
+      "options": [
+        {
+          "id": 1,
+          "text": "280 мл и 8 кубиков льда",
+          "isCorrect": false
+        },
+        {
+          "id": 2,
+          "text": "250 мл",
+          "isCorrect": false
+        },
+        {
+          "id": 3,
+          "text": "200 мл",
+          "isCorrect": true
+        },
+        {
+          "id": 4,
+          "text": "200 мл и 4 кубика льда",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "text": "Сколько грамм пюре нунжо для большого чая на основе пюре:",
+      "hasOptions": true,
+      "options": [
+        {
+          "id": 1,
+          "text": "40 г пюре",
+          "isCorrect": false
+        },
+        {
+          "id": 2,
+          "text": "30 г пюре",
+          "isCorrect": false
+        },
+        {
+          "id": 3,
+          "text": "45 г пюре",
+          "isCorrect": true
+        },
+        {
+          "id": 4,
+          "text": "60 г пюре",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "text": "Выберите правильную рецептуру приготовления на стандартный милкшейк:",
+      "hasOptions": true,
+      "options": [
+        {
+          "id": 1,
+          "text": "15 г соуса, 150 мл молока, 1 п сиропа",
+          "isCorrect": false
+        },
+        {
+          "id": 2,
+          "text": "7 г соуса, 100 мл молока, 2 п сиропа",
+          "isCorrect": false
+        },
+        {
+          "id": 3,
+          "text": "13,5 г соуса, 130 мл молока, 1,5 п сиропа",
+          "isCorrect": false
+        },
+        {
+          "id": 4,
+          "text": "10 г соуса, 140 мл молока, 1 п сиропа",
+          "isCorrect": true
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "text": "Выберите правильную рецептуру приготовления на большой айс-милкшейк:",
+      "hasOptions": true,
+      "options": [
+        {
+          "id": 1,
+          "text": "17 г соуса, 180 мл молока, 1 п сиропа",
+          "isCorrect": false
+        },
+        {
+          "id": 2,
+          "text": "15 г соуса, 150 мл молока, 2 п сиропа",
+          "isCorrect": true
+        },
+        {
+          "id": 3,
+          "text": "13,5 г соуса, 120 мл молока, 2 п сиропа",
+          "isCorrect": false
+        },
+        {
+          "id": 4,
+          "text": "8 г соуса, 12 мл молока, 1 п сиропа",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "text": "Сколько молока нужно для бэбичино:",
+      "hasOptions": true,
+      "options": [
+        {
+          "id": 1,
+          "text": "130 мл молока",
+          "isCorrect": true
+        },
+        {
+          "id": 2,
+          "text": "150 мл молока",
+          "isCorrect": false
+        },
+        {
+          "id": 3,
+          "text": "110 мл молока",
+          "isCorrect": false
+        },
+        {
+          "id": 4,
+          "text": "80 мл молока",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "text": "Как готовится гречишный чай:",
+      "hasOptions": false,
+      "answer": "5 г гречишного чая в белый пакет для заварки. Пакет с чаем кладем в большой стакан для горячих напитков и заливаем горячей водой с бойлера"
+    },
+    {
+      "id": 8,
+      "text": "Как готовится стандартный Pepperchino:",
+      "hasOptions": false,
+      "answer": "110 мл молока/1 эспрессо/2 п пряных специй/3 капли табаско"
+    },
+    {
+      "id": 9,
+      "text": "Как готовится большой Рафоэлло:",
+      "hasOptions": false,
+      "answer": "80 мл сливок/140 мл молока/1 эспрессо/2 пампа кокоса/1 памп миндаля"
+    },
     {
       "id": 10,
-      "text": "Как готовится глинтвейна:",
+      "text": "Как готовится глинтвейн:",
       "hasOptions": false,
       "answer": "200 мл глинтвейна подогреваем от 80 градусов и выше. Переливаем в стакан для горячих напитков стандартного объема"
     },
@@ -701,10 +1640,26 @@
       "text": "Сколько грамм пюре идет на большой чай на основе пюре:",
       "hasOptions": true,
       "options": [
-        { "id": 1, "text": "40 г пюре", "isCorrect": false },
-        { "id": 2, "text": "30 г пюре", "isCorrect": false },
-        { "id": 3, "text": "45 г пюре", "isCorrect": true },
-        { "id": 4, "text": "60 г пюре", "isCorrect": false }
+        {
+          "id": 1,
+          "text": "40 г пюре",
+          "isCorrect": false
+        },
+        {
+          "id": 2,
+          "text": "30 г пюре",
+          "isCorrect": false
+        },
+        {
+          "id": 3,
+          "text": "45 г пюре",
+          "isCorrect": true
+        },
+        {
+          "id": 4,
+          "text": "60 г пюре",
+          "isCorrect": false
+        }
       ]
     },
     {
@@ -712,10 +1667,26 @@
       "text": "Выберите правильную рецептуру приготовления на большой милкшейк:",
       "hasOptions": true,
       "options": [
-        { "id": 1, "text": "20 г соуса, 250 мл молока, 2,5 пампа сиропа", "isCorrect": false },
-        { "id": 2, "text": "18 г соуса, 230 мл молока, 3 пампа сиропа", "isCorrect": false },
-        { "id": 3, "text": "30 г соуса, 280 мл молока, 1 памп сиропа", "isCorrect": false },
-        { "id": 4, "text": "15 г соуса, 240 мл молока, 2 пампа сиропа", "isCorrect": true }
+        {
+          "id": 1,
+          "text": "20 г соуса, 250 мл молока, 2,5 п сиропа",
+          "isCorrect": false
+        },
+        {
+          "id": 2,
+          "text": "18 г соуса, 230 мл молока, 3 п сиропа",
+          "isCorrect": false
+        },
+        {
+          "id": 3,
+          "text": "30 г соуса, 280 мл молока, 1 п сиропа",
+          "isCorrect": false
+        },
+        {
+          "id": 4,
+          "text": "15 г соуса, 240 мл молока, 2 п сиропа",
+          "isCorrect": true
+        }
       ]
     },
     {
@@ -723,10 +1694,26 @@
       "text": "Выберите правильную рецептуру приготовления на стандартный айс-милкшейк:",
       "hasOptions": true,
       "options": [
-        { "id": 1, "text": "10 г соуса, 100 мл молока, 1 памп сиропа", "isCorrect": true },
-        { "id": 2, "text": "5 г соуса, 80 мл молока, 0,5 пампа сиропа", "isCorrect": false },
-        { "id": 3, "text": "8 г соуса, 120 мл молока, 2 пампа сиропа", "isCorrect": false },
-        { "id": 4, "text": "10 г соуса, 140 мл молока, 1 памп сиропа", "isCorrect": false }
+        {
+          "id": 1,
+          "text": "10 г соуса, 100 мл молока, 1 п сиропа",
+          "isCorrect": true
+        },
+        {
+          "id": 2,
+          "text": "5 г соуса, 80 мл молока, 0,5 п сиропа",
+          "isCorrect": false
+        },
+        {
+          "id": 3,
+          "text": "8 г соуса, 120 мл молока, 2 п сиропа",
+          "isCorrect": false
+        },
+        {
+          "id": 4,
+          "text": "10 г соуса, 140 мл молока, 1 п сиропа",
+          "isCorrect": false
+        }
       ]
     },
     {
@@ -734,10 +1721,26 @@
       "text": "Сколько молока и г пряного чая идет на стандартный пряный чай-латте:",
       "hasOptions": true,
       "options": [
-        { "id": 1, "text": "110 мл молока/5 г пряного чая", "isCorrect": false },
-        { "id": 2, "text": "140 мл молока/2 г пряного чая", "isCorrect": false },
-        { "id": 3, "text": "130 мл молока/7 г пряного чая", "isCorrect": true },
-        { "id": 4, "text": "180 мл молока/12 г пряного чая", "isCorrect": false }
+        {
+          "id": 1,
+          "text": "110 мл молока/5 г пряного чая",
+          "isCorrect": false
+        },
+        {
+          "id": 2,
+          "text": "140 мл молока/2 г пряного чая",
+          "isCorrect": false
+        },
+        {
+          "id": 3,
+          "text": "130 мл молока/7 г пряного чая",
+          "isCorrect": true
+        },
+        {
+          "id": 4,
+          "text": "180 мл молока/12 г пряного чая",
+          "isCorrect": false
+        }
       ]
     },
     {
@@ -748,20 +1751,21 @@
     },
     {
       "id": 16,
-      "text": "Выберите правильную рецептуру приготовления большого pepperchino:",
-      "hasOptions": true,
-      "options": [
-        { "id": 1, "text": "180 мл молока/1 эспрессо/1 памп пряные специи/4 капли табаско", "isCorrect": false },
-        { "id": 2, "text": "210 мл молока/2 эспрессо/3 пампа пряные специи/5 капель табаско", "isCorrect": true },
-        { "id": 3, "text": "280 мл молока/3 эспрессо/3 пампа пряные специи/10 капель табаско", "isCorrect": false },
-        { "id": 4, "text": "230 мл молока/2 эспрессо/2 пампа пряные специи/7 капель табаско", "isCorrect": false }
-      ]
+      "text": "Как готовится большой Pepperchino:",
+      "hasOptions": false,
+      "answer": "210 мл молока/2 эспрессо/3 п пряные специи/5 капель табаско"
     },
     {
       "id": 17,
-      "text": "Как готовится рафоэлло:",
+      "text": "Как готовится стандартный рафоэлло:",
       "hasOptions": false,
-      "answer": "50 мл сливок/90 мл молока/0,5 эспрессо/1 памп кокоса/0,5 пампа миндаля"
+      "answer": "50 мл сливок/90 мл молока/0,5 эспрессо/1 п кокоса/0,5 п миндаля"
+    },
+    {
+      "id": 18,
+      "text": "Что такое пряный чай-латте:",
+      "hasOptions": false,
+      "answer": "Молочный напиток с пряностями (мед, гвоздика, корица, экстракт черного чая, манго);"
     }
   ]
 }
